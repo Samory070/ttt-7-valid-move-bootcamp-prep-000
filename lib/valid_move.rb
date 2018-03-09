@@ -6,3 +6,5 @@ end
 def valid_move?
   if position_taken?
 end
+
+.between
