@@ -1,7 +1,7 @@
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " ",]
+
 def position_taken?(board, index)
-  bd = board[index]
-  bd != " " || bd != "" || bd != nil
+  board[index] != " "
+
 end
 
 def valid_move?(board, index)
